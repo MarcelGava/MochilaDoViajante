@@ -1,0 +1,4 @@
+IP público: 177.73.99.45.
+MAC Adress: 90-32-4B-BF-9D-87 - Hon Hai Precision Ind. Co.,Ltd.
+IP privado: 192.168.100.6
+Máscara de rede:  255.255.255.0
