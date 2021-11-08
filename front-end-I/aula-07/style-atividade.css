@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-image: url('http://image.freepik.com/free-vector/realistic-christmas-background-with-twigs_23-2149116859.jpg');
+  width: 1200px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  padding: 24px;
+  margin: 32px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button {
+  border: 5px black solid;
+  border-radius: 24px;
+  padding: 5px;
+}
