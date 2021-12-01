@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Cadastro de Usuário</h1>
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div>
+            <label for="username">Nome Completo</label>
+            <input type="text" name="username" id="username" />
+          </div>
+
+          <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="Data de Nascimento" id="birthDate" />
+          </div>
+
+          <div>
+            <label for="userEmail">E-mail</label>
+            <input type="email" name="userEmail" id="userEmail" />
+          </div>
+
+          <div>
+            <label for="userPassword">Senha</label>
+            <input type="password" name="userPassword" id="userPassword" />
+          </div>
+
+          <div>
+            <label for="userDescription">Depoimento</label>
+            <textarea name="userDescription" id="userDescription"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pagamento</legend>
+          <div>
+            <input type="radio" name="payment" id="credit" checked />
+            <label for="">Crédito</label>
+
+            <input type="radio" name="payment" id="debit" />
+            <label for="">Débito</label>
+
+            <input type="radio" name="payment" id="bill" />
+            <label for="">Boleto</label>
+          </div>
+
+          <div>
+            <label for="userPlan">Plano</label>
+            <select name="userPlan" id="userPlan">
+              <option value="1">Básico</option>
+              <option value="2">Médio</option>
+              <option value="3">Premium</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Entrega</legend>
+          <div>
+            <input type="radio" name="tax" id="empresaX" checked />
+            <label for="debit">Empresa X</label>
+
+            <input type="radio" name="tax" id="empresaY" />
+            <label for="debit">Empresa Y</label>
+
+            <input type="radio" name="tax" id="empresaZ" />
+            <label for="debit">Empresa Z</label>
+          </div>
+        </fieldset>
+        <div>
+          <label for=""></label>
+        </div>
+
+        <fieldset>
+          <legend>Recomendados</legend>
+          <div>
+            <input type="checkbox" name="recommended" id="firstProduct" />
+            <label for="firstProduct">Carregador</label>
+          </div>
+        </fieldset>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  /* margin-bottom: 24px;
+  margin-left: 12px;
+  margin-right: 12px; */
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+legend {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
