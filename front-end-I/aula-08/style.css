@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  /* border: 8px solid salmon;*/
+  height: 2000px;
+}
+.square {
+  width: 200px;
+  height: 200px;
+}
+
+.first-square {
+  background-color: slateblue;
+}
+
+.second-square {
+  background-color: blue;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 24px;
+  bottom: 24px;
+}
+
+.third-square {
+  background-color: crimson;
+}
