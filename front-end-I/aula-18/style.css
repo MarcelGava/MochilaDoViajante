@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: cyan;
+}
+
+main {
+
+  width: 100%;
+  background-color: darkgray;
+  /* height: 500px; */
+}
+
+/* article {
+
+  background-color: crimson;
+  height: 50%;
+  width: 50%;
+
+} */
+
+section {
+
+  background-color: darkorange;
+  height: 25vh;
+}
+
+.teste {
+  background-color: darkred;
+}
